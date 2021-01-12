@@ -15,7 +15,7 @@
 </head>
 
 <body>
-	<div class="side-menu" >
+	<div class="side-menu">
 		<ul class="side">
 			<li><a href="#">Follow</a></li>
 			<li><a href="#">Insta.</a></li>
@@ -48,13 +48,13 @@
 			</ul>
 		</div>
 		<div class="link-wrap">
-			<div class="bag modal-trigger" data-modal=".modal-cart>
+			<div class="bag modal-trigger" data-modal=".modal-cart">
 				<i class="fa fa-shopping-bag"></i>
 				<div class="cart-cnt">0</div>
 			</div>
 			<div class="bt-login modal-trigger" data-modal=".modal-login">SIGN IN</div>
-			<div class="bt-mo-login modal-trigger" data-modal=".modal-login>
-				<i class="fa fa-user"></i>
+			<div class="bt-mo-login modal-trigger" data-modal=".modal-login">
+				<i class=" fa fa-user"></i>
 			</div>
 		</div>
 	</header>
@@ -105,7 +105,7 @@
 		</div>
 		<div class="profile-wrapper swiper-container">
 			<div class="profile-wrap swiper-wrapper">
-				<div class="swiper-slide">
+				<div class="swiper-slide bt-length">
 					<div class="img-wrap">
 						<img src="../img/kind-1.jpg" alt="profile" class="w-100">
 					</div>
@@ -144,7 +144,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="swiper-slide">
+				<div class="swiper-slide bt-length">
 					<div class="img-wrap">
 						<img src="../img/kind-4.jpg" alt="profile" class="w-100">
 					</div>
@@ -215,17 +215,17 @@
 			<h2 class="title">PORTRAIT ART</h2>
 			<a href="#" class="now-box">SHOP COLLECTION<span class="now-bar"></span></a>
 		</div>
-		<div class="img-wrapper rel">
-			<div class="img-wrap abs">
+		<div class="img-wrapper">
+			<div class="img-wrap">
 				<img src="../img/portrait-1.jpg" alt="01" class="w-100">
 			</div>
-			<div class="img-wrap abs">
+			<div class="img-wrap">
 				<img src="../img/portrait-2.jpg" alt="02" class="w-100">
 			</div>
-			<div class="img-wrap abs">
+			<div class="img-wrap">
 				<img src="../img/portrait-3.jpg" alt="03" class="w-100">
 			</div>
-			<div class="img-wrap abs">
+			<div class="img-wrap">
 				<img src="../img/portrait-4.jpg" alt="04" class="w-100">
 			</div>
 		</div>
@@ -325,25 +325,28 @@
 		<div class="modal-wrapper type-middle-rt modal-login">
 			<h2 class="title-main">LOGIN</h2>
 			<form action="#">
-				<input type="text" id="userEmail" name="userEmail" class="input-default" placeholder="Username or email address *">
-				<input type="text" id="password" name="password" class="input-default" placeholder="Password *">
+				<input type="text" id="userEmail" name="userEmail" placeholder="Username or email address *">
+				<input type="text" id="password" name="password" placeholder="Password *">
 			</form>
-			<div class="check">
-				<input type="checkbox" name="chk_info" value="check">REMEMBER ME
+			<div class="check-wrap">
+				<div class="check">
+					<input type="checkbox" name="chk_info" value="check">
+					<p>REMEMBER ME</p> 
+				</div>
+				<div class="hover-line login">SIGN IN</div>
 			</div>
-			<div class="hover-line">SIGN IN</div>
 			<p>FORGOT PASSWORD</p>
 		</div>
 		<div class="modal-wrapper type-rt modal-cart">
 			<div class="cart-top">
-			<div class="close-wrap bt-close">
-				<i class="fa fa-times"></i>
+				<h2 class="title-main">SHOPPING BAG ( 0 )</h2>
+				<div class="close-wrap bt-close">
+					<i class="fa fa-times"></i>
+				</div>
 			</div>
-			<h2 class="title-main">SHOPPING BAG ( 0 )</h2>
+			<p class="bottom">No products in the cart.</p>
 		</div>
-		<p class="bottom">No products in the cart.</p>
 	</div>
-	</div> 
 	<script src="../js/index.js"></script>
 </body>
 
