@@ -37,7 +37,11 @@ function onModalHide(e) {
 function mainBanner() {
 	var swiper = new Swiper('.main-wrapper.swiper-container', {
 		loop: true,
-		effect: 'fade'
+		effect: 'fade',
+		autoplay: {
+			delay: 2500,
+			disableOnInteraction: false,
+		}
 	});
 }
 
@@ -48,6 +52,10 @@ function proFile() {
 		navigation: {
 			nextEl: '.profile-wrapper .bt-next',
 			prevEl: '.profile-wrapper .bt-prev',
+		},
+		autoplay: {
+			delay: 2500,
+			disableOnInteraction: false,
 		},
 		breakpoints: {
 			768: {
